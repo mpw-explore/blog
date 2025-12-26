@@ -1,4 +1,4 @@
-# 项目信息
+# 本项目信息
 <span style="float: right; color: #888; font-size: 0.9em;">2025-12-26</span>
 ## 核心框架 
 
@@ -47,4 +47,5 @@ npm run docs:preview
 
 
 ## 项目地址
-[github](https://github.com/mpw-explore/daily)
+[代码地址](https://github.com/mpw-explore/daily)
+[githubpage](https://mpw-explore.github.io/blog/index.html)

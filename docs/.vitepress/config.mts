@@ -2,8 +2,13 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/blog/',
   title: "MPW的技术分享阵地",
   description: "技术分享",
+  ignoreDeadLinks: [
+    /^http:\/\/localhost/,
+    /^http:\/\/127\.0\.0\.1/,
+  ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -15,7 +20,7 @@ export default defineConfig({
       {
         text: '技术分享',
         items: [
-          { text: '项目信息', link: '/articles' },
+          { text: '本项目信息', link: '/articles' },
           { text: '周报生成器', link: '/weekly_report' },
           {
             text: '小技巧',
