@@ -67,7 +67,7 @@ npm run dev
 ```
 
 8. 访问应用
-打开浏览器访问：http://localhost:8000
+打开浏览器访问：`http://localhost:8000`
 
 ## 使用说明
 
