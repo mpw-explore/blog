@@ -48,3 +48,9 @@ npm run docs:preview
 ```
 
 构建完成后，静态文件会生成在 `docs/.vitepress/dist` 目录。
+
+
+## 项目地址
+[代码地址](https://github.com/mpw-explore/daily)
+
+[githubpage](https://mpw-explore.github.io/blog/index.html)
